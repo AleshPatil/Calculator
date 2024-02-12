@@ -1,0 +1,45 @@
+.calc{
+    border: 1px solid gray;
+    width: 300px;
+    border-radius: 5px;
+    margin: 100px 625px;
+    background-color: lightgray;
+}
+
+#display{
+    width: 85%;
+    font-size: 20px;
+    height: 40px;
+    border-radius: 5px;
+    border:none;
+    margin: 15px 10px 0px 20px;
+}
+button{
+    height: 50px;
+    width: 50px ;
+    flex-wrap: wrap;
+    margin: 15px 17px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    color: white;
+    font-size: 25px;
+    background-color: black;
+}
+.btn_container{
+    margin: 15px 15px;
+}
+#ans{
+    background-color: blue;
+    color: white;
+}
+#ans:hover{
+    background-color: green;
+}
+button:hover{
+    background-color: gray;
+}
+.calc:hover{
+   box-shadow: 3px 6px 10px black;
+   transition: 2s;
+    }
